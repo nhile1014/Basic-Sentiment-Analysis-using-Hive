@@ -4,4 +4,4 @@ To determine each tweet's score and identify whether the tweet had a positive, n
 
 To improve the Sentiment Analysis using Hive, the dictionary file needs more words and develops in specific fields based on analysts' purpose. Some tweets did not show the scores because the words on those tweets do not match the dictionary file words. This lacking of words leads to an incomplete analysis of the tweets.   
 
-![Optional Text](../master/myFolder/image.png)
+![Optional Text](https://user-images.githubusercontent.com/86505407/146411090-340e0e24-cb2a-4e8a-a7d9-940661498654.png)
