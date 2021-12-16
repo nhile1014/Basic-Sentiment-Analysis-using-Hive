@@ -1,6 +1,7 @@
 # Basic Sentiment Analysis using Hive
 
 To determine each tweet's score and identify whether the tweet had a positive, negative, or neutral sentiment, I created an excel file calls tweet.csv with 20 tweets. The file includes some columns such as postid, twitter_handle, content, num_comments, num_retweets, likes. Then, I put tweet.csv and Dictionary.txt into Hive. I kept getting some null values when I load the excel file into Hive. After trying to figure out what I did wrong several times, I realized that some tweets with line breaks had some null values. Cleaning data in excel is necessary. Next, to split up each tweet into words, I created the table split_ntl0039. Next, I joined two tables that included dictionary information and split words to get the score of every word of tweets. Finally, I grouped the scores by postid and twitter_handle to get each tweet's score and determined whether the tweet had a positive, negative, or neutral sentiment based on the scores. I kept getting some null values when I load the excel file into Hive.   
+
 To improve the Sentiment Analysis using Hive, the dictionary file needs more words and develops in specific fields based on analysts' purpose. Some tweets did not show the scores because the words on those tweets do not match the dictionary file words. This lacking of words leads to an incomplete analysis of the tweets.   
 
 ![Optional Text](../master/myFolder/image.png)
